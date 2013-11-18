@@ -3,23 +3,16 @@
 
 # TEAM
 
-    	Lead Designer and Front-end Developer: Joel Gutiérrez
+    Lead Designer and Front-end Developer: Joel Gutiérrez
 	Site: gutierrezjoel.com.ar
 	Twitter: @Gutz333
 	Location: Mendoza, Argentina
 
-	Developer: Agustín Silva
-	Site: 
-	Twitter:
-	Location: Mendoza, Argentina
-
 # THANKS
-
-    Quinta Rufino
 	
 	Everyone at the Open Source Community
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Initializr, Normalize.css, jQuery, Modernizr, Google Web Fonts, Sublime Text 2, Filezilla, StartBootstrap, Boostrap
+    Initializr, Normalize.css, jQuery, Modernizr, Google Web Fonts, Sublime Text 2, Filezilla

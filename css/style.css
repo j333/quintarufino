@@ -12,10 +12,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Alegreya', serif;
 }
 
-section{
-  padding: 50px 0 80px;
-}
-
 hr{
   border-color: #F2DEA6;
 }
@@ -24,6 +20,7 @@ hr{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  padding: 0 15px;
 }
 
 .vert-text h1 {
@@ -31,6 +28,14 @@ hr{
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.container {
+  margin:3em auto;
 }
 
 /* Preloader */
@@ -172,6 +177,10 @@ background: url(../img/status.png) center center no-repeat;
   border-color: #D8EDEB;
 }
 
+.toggle {
+  margin: 5px 5px 0 0;
+}
+
 #sidebar-wrapper.active {
   right: 250px;
   width: 250px;
@@ -180,10 +189,6 @@ background: url(../img/status.png) center center no-repeat;
   -ms-transition: all 0.8s ease 0s;
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
-}
-
-.toggle {
-  margin: 5px 5px 0 0;
 }
 
 .btn-default {
@@ -229,14 +234,15 @@ border-color: #422D1E;
 }
 
 .header a.btn {
-position: absolute;
-bottom: 0;
-border-radius: 5px 5px 0 0;
-background-color: #2F4159;
-border-bottom: none;
-color: #D8EDEB;
-width: 220px;
-margin-left: -110px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px 5px 0 0;
+  background-color: #2F4159;
+  border-bottom: none;
+  color: #D8EDEB;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
 }
 
 /* Intro */
@@ -278,7 +284,8 @@ margin-left: -110px;
   padding-top: 10px;
   cursor: default;
 }
-.languages li abbr:hover{
+
+.languages li abbr a:hover{
   text-decoration: none;
 }
 
@@ -287,6 +294,15 @@ margin-left: -110px;
   color: #422D1E;
   cursor: pointer;
   border-radius: 0 0 6px 6px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.languages .active abbr:hover{
+  height: 50px;
 }
 
 /* Services */
